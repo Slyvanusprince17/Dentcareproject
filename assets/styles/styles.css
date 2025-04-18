@@ -232,49 +232,6 @@ ul li {
     justify-content: space-between;
 }
 
-.appointment-container {
-    background: #0073e6;
-    padding: 30px;
-    border-radius: 10px;
-    color: white;
-    text-align: center;
-    width: 400px;
-}
-
-/* form {
-    display: flex;
-    flex-direction: column;
-}
-
-.form-row {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
-form input {
-    width: 48%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    color: black;
-} */
-
-/* button {
-    width: 100%;
-    background: black;
-    color: white;
-    padding: 12px;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-    border-radius: 5px;
-    margin-top: 10px;
-} */
-
-/* button:hover {
-    background: #444;
-} */
 
 .certification-section {
     /* height: 80vh; */
@@ -282,26 +239,71 @@ form input {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
+    margin-top: 100px;
     /* filter */
     background-blend-mode: darken;
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 40px;
-
+    /* padding: 40px; */
     display: flex;
     justify-content: space-between;
 }
 
-
 .certification-section .left-section {
     color: #fff;
-    /* width: 300px; */
     width: 50%;
+    padding: 155px 40px;
 }
 
 .certification-section .left-section h1 {
     font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
 
+.appointment-container {
+    background: rgba(0, 115, 230, 0.7);
+    padding: 155px 30px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin-right: 40px;
+}
+
+.appointment-container h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.appointment-container form .form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.appointment-container form .form-row select,
+.appointment-container form .form-row input {
+    width: 50%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 25px 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #595252;
+    background-color: #faf7f7;
+
+}
+
+.appointment-container form .appoint-btn {
+    color: #faf7f7;
+    background-color: #061b32;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .services-section .our-services {
