@@ -1,22 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles/styles.css">
     <title>Document</title>
 </head>
+
 <body>
-    <header>
+    <header class="">
         <nav class="header-nav">
-            <div>
+            <div class="logo">
                 <h2>DentCare</h2>
             </div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
-            </ul>
+            <div class="nav-links">
+                <ul class="nav-items"> 
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <button class="opp-btn">Appointment</button>
+            </div>
+
         </nav>
     </header>
+    <div class="hero-container">
+        <div class="hero-text">
+            <p>KEEP YOUR TEETH HEALTHY</p><br>
+            <h2>Take The Best Quality <br> Dental Treatment</h2>
+            <div class="hero-btn">
+                <button class="tit-btn">Appointment</button>
+                <button class="opp-btn">Contact Us</button>
+            </div>
+        </div>
+    </div>
+    <section class="mlr appointment-section">
+        <div class="container">
+            <!-- Opening Hours Box -->
+            <div class="box opening-hours">
+                <h3>Opening Hours</h3>
+                <p><strong>Mon - Fri:</strong> 8:00am - 9:00pm</p>
+                <p><strong>Saturday:</strong> 8:00am - 7:00pm</p>
+                <p><strong>Sunday:</strong> 8:00am - 5:00pm</p>
+                <button class="btn">Appointment</button>
+            </div>
+
+            <!-- Search a Doctor Box -->
+            <div class="box search-doctor">
+                <h3>Search A Doctor</h3>
+                <input type="date" placeholder="Appointment Date" value="Appointment Date">
+                <select>
+                    <option>Select A Service</option>
+                    <option>Dental Checkup</option>
+                    <option>Teeth Cleaning</option>
+                </select>
+                <button>Search Doctor</button>
+            </div>
+
+            <!-- Make Appointment Box -->
+            <div class="box make-appointment">
+                <h3>Make Appointment</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h2>+012 345 6789</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="About-Us-Cont" class="mlr">
+        <div id="About-Us">
+            <h4>About Us</h4>
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+
+        </div>
+        <div class="hit1">
+            <div>
+                <h2>The World's Best Dental Clinic <br> That You Can Trust</h2><br>
+                <h3>Diam dolor diam ipsum sit.Clita erat ipsum et <br>lorem stet no lorem sit clita duo justo magna
+                    dolore</h3>
+                <p class="pit1">Lorem, ipsum dolor sit amet consectetur adipisicing,<br> Deserunt ab excepturi praesentium, quia
+                    minima tempora consequuntur <br> aperiam enim, voluptatibus quod eligendi eveniet velit ullam,
+                    impedit illo aspernatur aut nobis soluta.</p>
+                <ul class="list1">
+                    <li>✅ Award Winning</li>
+                    <li>✅ Professional Staff</li>
+                </ul>
+                <ul class="list2">
+                    <li>✅ 24/7 Opened</li>
+                    <li>✅ Fair Prices</li>
+                </ul>
+                <button class="tip-bnt">Make Appointment</button>
+            </div>
+            <div>
+                <img src="./assets/images/aboutImg.JPG" alt="" width="400">
+            </div>
+        </div>
+    </section>
+
+    <section class="certification-section">
+        <div class="left-section mlr">
+            <h1>We Are A Certified and Award Winning Dental Clinic You Can Trust</h1>
+            <p>
+                Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum.
+                Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt
+                voluptate. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem.
+            </p>
+        </div>
+        <div class="appointment-container">
+            <h2>Make Appointment</h2>
+            <form>
+                <div class="form-row">
+                    <select>
+                        <option>Service 1</option>
+                        <option>Service 2</option>
+                    </select>
+                    <select>
+                        <option>Select Doctor</option>
+                        <option>Dr. Smith</option>
+                        <option>Dr. Johnson</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email">
+                </div>
+
+                <div class="form-row">
+                    <input type="date" value="2025-03-20">
+                    <input type="time" value="18:58">
+                </div>
+
+                <button type="submit">Make Appointment</button>
+            </form>
+        </div>
+    </section><br><br><br>
+
+    <section class="services-section">
+        <div class="our-services">
+            <div>
+                <img src="./assets/images/DO.JPG" alt="" width="500px">
+
+            </div>
+            <div>
+                <div class="services-line">
+                    <h4>OUR SERVICES</h4>
+                    <div class="line-1"></div>
+                    <div class="line-2"></div>
+                </div><br>
+                <div>
+                    <h2>WE OFFER THE BEST QUALITY DENTAL SERVICES</h2>
+
+                </div>
+                <div class="services-img">
+                    <div>
+                        <img src="./assets/images/Woma.JPG" alt="" width="300px">
+                        <p>Cosmetic Dentistry</p>
+                    </div>
+                    <div>
+                        <img src="./assets/images/doc.JPG" alt="" width="300px">
+                        <p>Dental Implant</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><br><br><br>
+
+
+    <section class="Dental-section">
+        <div class="our-Den">
+            <div>
+                <img src="./assets/images/blue.JPG" alt="" width="300">
+                <p>Dental Bridges</p>
+            </div>
+            <div>
+                <img src="./assets/images/oldtt.JPG" alt="" width="300">
+                <p>Teeth Whitening</p>
+            </div>
+            <div class="mak-app">
+                <h2>Make Appointment</h2>
+                <p>Clita ipsum magna kasd at ipsum amet dolor justo dolor est bmagna stet eirmod</p>
+                <h3>+012 3456 789</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="save-section">
+        <div class="save-check">
+            <div>
+                <h2>Save 30% On Your First <br>Dantal Checkup</h2>
+                <p>Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. <br>
+                    Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt </p>
+            </div>
+            <button class="save-btn">Appointment</button>
+            <button class="red-btn">Read More</button>
+        </div>
+    </section><BR></BR>
+
+    <section class="we-section">
+        <div>
+            <div id="About-Us" >
+                <h4>PRINCING PLAN</h4>
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+            </div>
+            <div class="we-section-container">
+                <div class="line">
+                    <h2>We Offer Fair Price For Dental Treatment</h2>
+                    <p>eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum.
+                        Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt
+                        voluptate. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem.</p>
+                    <h3 class="call-app">CALL FOR APPOINTMENT</h3>
+                    <h4>+012 3456 789</h4>
+                </div>
+            </div>
+        </div>
+        <div class="image-section">
+            <div class="Price-details">
+                <img src="./assets/images/DO.JPG" alt="" width="400">
+                <p class="Price">$99</p>
+                <div class="new">
+                    <h3>Teeth Whitening</h3>
+                    <p>Modern Equirment ✅</p>
+                    <p>Professional Dentist ✅</p>
+                    <p>24/7 Call Support ✅</p>
+                </div>
+                <button class="img-app">Appointment</button>
+            </div>
+            <div class="Price-details">
+                <img src="./assets/images/manhand.JPG" alt="" width="400">
+                <p class="Price">$39</p>
+                <h3>Dental Implant</h3>
+                <p>Modern Equirement ✅</p>
+                <p>Professional Dentist ✅</p>
+                <p>24/7 Call Support ✅</p>
+                <button>Appointment</button>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-top">
+            <input type="email" placeholder="your email">
+            <button>sign up</button>
+        </div>
+        
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Our Service</a>
+                <a href="#">Latest Blog</a>
+                <a href="#">Contact Us</a>
+        </div>
+
+        <div class="footer-column">
+            <h3>Popular Links</h3>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Our Service</a>
+            <a href="#">Latest Blog</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="footer-column">
+            <h3>Get In Touch</h3>
+            <div class="social-icons">
+                <p><i class="fas fa-map-market-alt"></i>56 Henry street, sars road,Rivers state</p>
+                <p><i class="fas fa-envelope"></i>example@gmail.com</p>
+                <p><i class="fas fa-phone"></i>+234 7030174676</p>
+        </div>
+
+        <div class="footer-column">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-linkedlin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; Your site Name.All Right Reserved.</p>
+            <p>Designed by Prince codex</p>
+        </div>
+
+
+    </footer>
+
+
+
 </body>
+
+</body>
+
 </html>
