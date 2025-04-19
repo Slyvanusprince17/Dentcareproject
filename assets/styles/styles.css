@@ -435,20 +435,18 @@ ul li {
 
 .our-Den {
     display: flex;
-    align-items: center;
     gap: 40px;
+    padding: 40px 0;
 }
 
-.Dental-section .our-Den .dem-mama p {
-    font-size: 40px;
+.our-Den .dem-mama {
     margin-bottom: 50px;
-    width: 90%;
-    line-height: 60px;
-    background-color: rgb(130, 126, 126);
+    background-color: #c9cdd0;
+    max-height: 290px;
     
 }
 
-.Dental-section .our-Den .dem-mama p {
+.our-Den .dem-mama p {
     font-size: 22px;
     margin: 40px 0;
     text-align: center;
@@ -459,38 +457,69 @@ ul li {
     text-align: center;
     padding: 60px;
     border-radius: 5px;
-    max-width: 500px;
     font-family: arial,sans-serif;
     font-weight: bold;
+    max-height: 290px;
 }
+.our-Den .mak-app h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.our-Den .mak-app p{
+    font-weight: normal;
+}
+.our-Den .mak-app h3 {
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+
 .save-section {
     background-image: url(/assets/images/background1.JPG);
     background-position: center;
     background-size: cover;
     background-blend-mode: darken;
-    background-color: rgba(0, 0, 0, 0.7);
     padding: 40px;
     color: #fff;
     text-align: center;
+   
 
 }
 .save-check {
-    background-color: #0073e6;
+    background-color: rgba(0, 115, 230, 0.7);
     padding: 40px;
     border: none;
     width: 50%;
+    margin: auto;
+}
+.save-check .brb-check h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+.save-check .type-btn {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
 }
 .save-btn {
     padding: 10px 10px;
-    background-color: rgb(14, 238, 246);
+    background-color: #050509;
     border: none;
-    width: 50%   
+    color: #ffffff;
+    font-size: 18px;
+    padding: 15px 30px;
 }
+
 .red-btn {
-    padding: 10px 10px;
-    background-color: hsl(28, 21%, 88%);
+    background-color: #ccc;
     border: none;
-    width: 50%
+    color: #050509;
+    font-size: 18px;
+    padding: 15px 30px;
     
 }
 
